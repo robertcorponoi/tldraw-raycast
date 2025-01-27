@@ -103,7 +103,7 @@ const sub = (vec1: Vec2, vec2: Vec2): Vec2 => {
  *
  * @returns {Intersection[]} Returns an array of intersections, which are the id of the shape that was intersected and the point of intersection.
  */
-const raycastStep = (
+export const raycastStep = (
 	editor: Editor,
 	rayOrigin: Vec2,
 	rayDir: Vec2,
@@ -177,7 +177,7 @@ const raycastStep = (
  *
  * @returns {IntersectionRaySegment[]} Returns an array of intersections, which are the id of the shape that was intersected and the point of intersection.
  */
-const raycastRaySegment = (
+export const raycastRaySegment = (
 	editor: Editor,
 	rayOrigin: Vec2,
 	rayDir: Vec2,
